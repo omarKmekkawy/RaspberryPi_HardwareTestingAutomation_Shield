@@ -9411,7 +9411,7 @@
 		)
 		(uuid "767b6fef-d9ec-4899-adc1-247ce8ea758e")
 	)
-	(label "ADC_AIN2"
+	(label "ADC_AIN3"
 		(at 349.25 186.69 0)
 		(fields_autoplaced yes)
 		(effects
@@ -9433,7 +9433,7 @@
 		)
 		(uuid "79313e2d-53e1-43e8-a82f-3d17d4e3f51b")
 	)
-	(label "ADC_AIN3"
+	(label "ADC_AIN2"
 		(at 349.25 189.23 0)
 		(fields_autoplaced yes)
 		(effects
