@@ -9786,17 +9786,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 227.33 200.66 0)
+		(lib_id "power:GND1")
+		(at 240.03 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "08e0602b-765c-4c15-b643-6517c3103ed7")
-		(property "Reference" "#PWR012"
-			(at 227.33 207.01 0)
+		(uuid "083210af-6097-4609-9b7a-9755e7ad978d")
+		(property "Reference" "#PWR031"
+			(at 240.03 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9804,8 +9804,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 227.33 205.74 0)
+		(property "Value" "GND1"
+			(at 240.03 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9813,7 +9813,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 227.33 200.66 0)
+			(at 240.03 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9822,7 +9822,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 227.33 200.66 0)
+			(at 240.03 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9831,7 +9831,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 227.33 200.66 0)
+			(at 240.03 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9840,12 +9840,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "bbcb076d-852f-4613-8ecc-8cce676999bc")
+			(uuid "4a774f7c-ca04-420d-b068-6b849ae91bbc")
 		)
 		(instances
 			(project "Pi_HIL"
 				(path "/a3e06eb5-9458-4707-b309-05c4a5721e73"
-					(reference "#PWR012")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -10856,72 +10856,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 223.52 260.35 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2f361916-6c48-4b57-b664-23a7d0248f0b")
-		(property "Reference" "#PWR021"
-			(at 223.52 266.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 223.52 265.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 223.52 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 223.52 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 223.52 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ccac35d6-fabd-470e-8cb9-fa425b1b02f9")
-		)
-		(instances
-			(project "Pi_HIL"
-				(path "/a3e06eb5-9458-4707-b309-05c4a5721e73"
-					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 142.24 92.71 0)
 		(unit 1)
@@ -11057,72 +10991,6 @@
 			(project "Pi_HIL"
 				(path "/a3e06eb5-9458-4707-b309-05c4a5721e73"
 					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 240.03 146.05 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4a9442f3-927b-4fd6-b334-fadb9fd01d16")
-		(property "Reference" "#PWR031"
-			(at 240.03 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 240.03 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 240.03 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 240.03 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 240.03 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3ee561f4-fb8e-4c04-965b-ecff1b98ec7e")
-		)
-		(instances
-			(project "Pi_HIL"
-				(path "/a3e06eb5-9458-4707-b309-05c4a5721e73"
-					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -11826,6 +11694,72 @@
 	)
 	(symbol
 		(lib_id "power:GND1")
+		(at 223.52 260.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c29fd5a-15be-46f0-839d-5ce93a8bf5ad")
+		(property "Reference" "#PWR021"
+			(at 223.52 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND1"
+			(at 223.52 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.52 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 223.52 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ca2823be-706e-4532-b861-05f437512581")
+		)
+		(instances
+			(project "Pi_HIL"
+				(path "/a3e06eb5-9458-4707-b309-05c4a5721e73"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND1")
 		(at 217.17 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12091,6 +12025,72 @@
 			(project "Pi_HIL"
 				(path "/a3e06eb5-9458-4707-b309-05c4a5721e73"
 					(reference "BZ1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND1")
+		(at 261.62 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "70c8dcba-84a0-4c86-bcee-2c2d49f69de7")
+		(property "Reference" "#PWR032"
+			(at 261.62 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND1"
+			(at 261.62 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 261.62 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 261.62 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ac7cc19e-ae80-453b-a783-c8481a1b4cbd")
+		)
+		(instances
+			(project "Pi_HIL"
+				(path "/a3e06eb5-9458-4707-b309-05c4a5721e73"
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -12998,72 +12998,6 @@
 			(project "Pi_HIL"
 				(path "/a3e06eb5-9458-4707-b309-05c4a5721e73"
 					(reference "#PWR027")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 261.62 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a91704f3-2eed-45a5-b076-ee1455b9d0da")
-		(property "Reference" "#PWR032"
-			(at 261.62 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 261.62 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 261.62 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 261.62 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 261.62 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "db4972e0-f4da-47f1-a7f6-dcd68cb69703")
-		)
-		(instances
-			(project "Pi_HIL"
-				(path "/a3e06eb5-9458-4707-b309-05c4a5721e73"
-					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -14461,6 +14395,72 @@
 			(project ""
 				(path "/a3e06eb5-9458-4707-b309-05c4a5721e73"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND1")
+		(at 227.33 200.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e481a42c-75e7-425b-bd82-41f3ab48f1b4")
+		(property "Reference" "#PWR012"
+			(at 227.33 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND1"
+			(at 227.33 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 227.33 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 227.33 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 227.33 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d27667c6-c422-46db-a33e-2c321aa448c6")
+		)
+		(instances
+			(project "Pi_HIL"
+				(path "/a3e06eb5-9458-4707-b309-05c4a5721e73"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
