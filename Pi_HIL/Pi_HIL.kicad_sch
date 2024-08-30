@@ -6730,10 +6730,6 @@
 		(uuid "21ae10a3-ea93-420e-84cb-572920e79eaa")
 	)
 	(no_connect
-		(at 30.48 41.91)
-		(uuid "23a80f1b-5d00-4817-b2c2-d736e030e12b")
-	)
-	(no_connect
 		(at 71.12 64.77)
 		(uuid "2a57384c-6ba9-45ae-8bfb-1955fa7d926e")
 	)
@@ -7622,6 +7618,16 @@
 			(type default)
 		)
 		(uuid "5caf5e95-213b-43bb-86db-cd95899fe4bb")
+	)
+	(wire
+		(pts
+			(xy 17.78 41.91) (xy 30.48 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d1e7751-d65e-4166-a857-f4fd6bef9803")
 	)
 	(wire
 		(pts
@@ -9663,6 +9669,17 @@
 			(justify left bottom)
 		)
 		(uuid "d25d7d9c-cfc0-4e28-88f0-6ae863643119")
+	)
+	(label "LED_O"
+		(at 17.78 41.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e28e3ea1-3e41-4c78-a908-5e9f7c4740e0")
 	)
 	(label "DAC_OUT"
 		(at 353.06 146.05 0)
